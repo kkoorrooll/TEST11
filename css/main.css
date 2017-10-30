@@ -300,9 +300,9 @@ h1, h2, h3, h4, h5, h6 {
 	z-index:1;
 	left:0;
 	bottom:0;
-	background-image:url(../images/home-pattern.png);
+	background: rgba(0,0,0,.8) url(../images/home-pattern.png);
 	background-repeat:repeat;
-	opacity:0.2;
+	opacity: .5;
 }
 
 #home{
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 55px;
 	font-weight: 800;
 	margin-bottom: 40px;
-	text-shadow: none;
+	text-shadow: 1px 1px 3px #000;
 	text-transform: uppercase;
 }
 
@@ -599,7 +599,7 @@ h1, h2, h3, h4, h5, h6 {
 ======================*/
 
 #services {
-  background-image: url("../images/services/service-bg.jpg");
+  background-image: url("../images/services/service-bg.png");
   color:#fff;
   text-align:center;
   background-color:	#0A0A13;
@@ -939,7 +939,7 @@ h1, h2, h3, h4, h5, h6 {
 ======================*/
 
 #clients{
-	background-image: url("../images/clients/client-bg.jpg");
+	background-image: url("../images/clients/client-bg.png");
 	background-color:#0A0A13;
 }
 
